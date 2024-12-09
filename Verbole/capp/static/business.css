@@ -1,0 +1,137 @@
+/* Utilities  */
+p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+h4 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h4 {
+  color: #fd3c8d; 
+}
+
+ol {
+  font-size: 18px;
+}
+
+/* Section header */
+.section_header_business {
+  background-color: #0f9fd9;
+}
+.header {
+  display: flex;
+  align-items: start;
+  background: #0f9fd9;
+}
+.header .box {
+  flex: 1;
+  background: #0f9fd9;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin: 20px 10px;
+  padding: 15px 20px;
+  text-align: cente;
+  align-items: center;
+  justify-content: center;
+}
+.header .box:nth-of-type(1) {
+  flex-grow: 2;
+}
+.header .box:nth-of-type(2) {
+  flex-grow: 1;
+}
+.container_buttons_links_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container_buttons_links_header a:hover {
+  color: #38b6ff;
+}
+.container_buttons_links_header btn {
+  width: 100px;
+  height: 100px;
+  background: whitesmoke;
+  color:  #80baf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Section business */
+.section_body_business {
+  background-color: #0f9fd9;
+}
+.business {
+  display: flex;
+  align-items: start;
+  background: #0f9fd9;
+}
+
+/* Table with one column */
+.business .box_table1 {
+  flex: 1;
+  background: #0e7ba7;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+  padding: 15px 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.business .box_table1:nth-of-type(1) {
+  flex-grow: 1;
+  background: #0e7ba7;
+}
+.business .box_table1:nth-of-type(2) {
+  flex-grow: 4;
+}
+.business .box_table1:nth-of-type(3) {
+  flex-grow: 1;
+  background: #0e7ba7;
+}
+
+/* Table with two columns */
+.business .box_table2 {
+  flex: 1;
+  background: #ffde59;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+  padding: 15px 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.business .box_table2:nth-of-type(1) {
+  flex-grow: 1;
+  background: #80baf8;
+}
+.business .box_table2:nth-of-type(2) {
+  flex-grow: 1;
+  background: #80baf8;
+}
+
+/* Cambiar solo el color de los iconos */
+.fa-solid {
+  color: #fd3c8d; /* Color que has solicitado para los iconos */
+}
+
+/* Mantener el color del texto intacto */
+body {
+  color: black; /* El color que deseas para el texto */
+}
+
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+  }
+  .business {
+      flex-direction: column;
+  }
+}
